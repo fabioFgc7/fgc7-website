@@ -1,0 +1,34 @@
+nav ul li a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: ;
+  text-transform: uppercase;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}

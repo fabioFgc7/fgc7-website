@@ -1,0 +1,31 @@
+@import "animate.css";
+.text-animate {
+  display: inline-block;
+  opacity: 1;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: backwards;
+  min-width: 10px;
+}
+.text-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+  &:hover {
+    animation: heartBeat 1s;
+    color: #0281c3;
+  }
+}
+.icon-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+  &:hover {
+    animation: flash 1s;
+    color: #0281c3;
+  }
+}
+@for $i from 1 through 35 {
+  .text-animate._#{$i} {
+    animation-delay: calc($i / 10) s;
+  }
+}
