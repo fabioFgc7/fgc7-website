@@ -26,7 +26,7 @@ export const About = () => {
           data-aos-easing='ease-in-sine'>
           <img
             className='md:w-64 md:h-80 w-60 h-72 '
-            src='/src/assets/image/about.jpg'
+            src='image/about.jpg'
             alt='Img'
           />
         </picture>

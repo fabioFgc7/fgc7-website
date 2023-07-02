@@ -1,7 +1,7 @@
 const planets = [
   {
     id: 1,
-    image: "/src/assets/space/galaxy.jpg",
+    image: "assets/space/galaxy.jpg",
     style: " top-40 left-60   items-end w-10 scale-50",
   },
   {
@@ -11,17 +11,17 @@ const planets = [
   },
   {
     id: 3,
-    image: "/src/assets/space/jupiters.jpg",
+    image: "assets/space/jupiters.jpg",
     style: "top-80 left-20   items-end md:w-16 w-10",
   },
   {
     id: 4,
-    image: "/src/assets/space/planeta_marte.jpg",
+    image: "assets/space/planeta_marte.jpg",
     style: "top-2/3 left-1/2   items-end md:w-12 w-8",
   },
   {
     id: 5,
-    image: "/src/assets/space/saturno.jpg",
+    image: "assets/space/saturno.jpg",
     style:
       "bottom-40 right-10 md:-bottom-12 md:right-[25%]   items-end w-10 md:w-20",
   },
