@@ -5,7 +5,6 @@ import "animate.css";
 import "aos/dist/aos.css";
 import "./home.css";
 import { AnimatteLetters } from "../animateLetters/AnimateLetters";
-import Page from "../../page/Page";
 
 export const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -94,11 +93,10 @@ export const Home = () => {
           data-aos='zoom-in-left'>
           <img
             className='imagen md:w-80 md:h-96 w-60 h-72 border-separate border-pink-900 border-l-8 border-2 border-l-[#330367] hover:scale-105 duration-200 drop-shadow-2xl rounded-md border-none select-none z-20 '
-            src='assets/image/home.jpg '
+            src='./assets/image/home.jpg'
             alt='Img'
           />
         </picture>
-        <Page />
       </section>
     </>
   );

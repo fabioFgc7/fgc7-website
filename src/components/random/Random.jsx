@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 
 const array = [
-  "/src/assets/skillImg/css.jpg",
-  "/src/assets/skillImg/html.jpg",
-  "/src/assets/skillImg/js.jpg",
-  "/src/assets/skillImg/node.jpg",
-  "/src/assets/skillImg/reactJs.jpg",
+  "./assets/skillImg/css.jpg",
+  "./assets/skillImg/html.jpg",
+  "./assets/skillImg/js.jpg",
+  "./assets/skillImg/node.jpg",
+  "./assets/skillImg/reactJs.jpg",
 ];
 export const Random = () => {
   const [texto, setTexto] = useState("");

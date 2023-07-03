@@ -29,7 +29,7 @@ const Imagen = () => {
     <img
       // ref={animateScroll}
       className='h-96 md:block hidden absolute -top-10  left-10     hover:-translate-y-40 duration-500 ease-out  hover:-translate-x-10 select-none '
-      src='/src/assets/image/coete-removebg-preview.png '
+      src='./assets/image/coete-removebg-preview.png '
       alt='Astronauta'
       data-aos='fade-up-right'
     />
