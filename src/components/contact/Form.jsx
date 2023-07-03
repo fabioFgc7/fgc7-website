@@ -70,7 +70,7 @@ const FormContact = () => {
         }}
         ref={imagenMovil}
         className={`absolute h-40  top-0 left-0 duration-500 ease-in-out   `}
-        src='/src/assets/space/platillo_volador.jpg '
+        src='./assets/space/platillo_volador.jpg '
         alt='Astronauta'
         data-aos='fade-up-left'
       />

@@ -10,7 +10,7 @@ const works = [
   {
     id: 1,
     title: "Qr Generator",
-    img: "/src/assets/image/qr_code_generator.png",
+    img: "./assets/image/qr_code_generator.png",
     description: "Qr code generator",
     github: "https://github.com/fabioFgc7/Qr-code-generator",
     link: "https://fabiofgc7.github.io/Qr-code-generator/",
@@ -18,7 +18,7 @@ const works = [
   {
     id: 2,
     title: "Password generator",
-    img: "/src/assets/image/password_generator.png",
+    img: "./assets/image/password_generator.png",
     description: "Weather app ",
     github: "https://github.com/fabioFgc7/Password-generator",
     link: "https://fabiofgc7.github.io/Password-generator/",
@@ -26,7 +26,7 @@ const works = [
   {
     id: 3,
     title: "Calculator",
-    img: "/src/assets/image/age_calculator.png",
+    img: "./assets/image/age_calculator.png",
     description: "Age calculator App",
     github: "https://github.com/fabioFgc7/Age_Calculator_App",
     link: "https://fabiofgc7.github.io/Age_Calculator_App/",
@@ -34,7 +34,7 @@ const works = [
   {
     id: 4,
     title: "Solar System Planet",
-    img: "/src/assets/image/solar_system_planets.png",
+    img: "./assets/image/solar_system_planets.png",
     description: "Web site of the solar system planet. ",
     github: "https://github.com/fabioFgc7/Solar-system",
     link: "https://fabiofgc7.github.io/Solar-system/#",
