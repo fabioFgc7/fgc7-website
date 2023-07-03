@@ -5,6 +5,7 @@ import "animate.css";
 import "aos/dist/aos.css";
 import "./home.css";
 import { AnimatteLetters } from "../animateLetters/AnimateLetters";
+import Page from "../../page/Page";
 
 export const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -97,6 +98,7 @@ export const Home = () => {
             alt='Img'
           />
         </picture>
+        <Page />
       </section>
     </>
   );
