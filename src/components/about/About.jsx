@@ -12,7 +12,7 @@ export const About = () => {
   return (
     <section
       id='about'
-      className=' w-fulltext-slate-100  md:p-10 p-5 pt-10 md:space-y-10 space-y-5  md:pt-20   overflow-hidden'>
+      className=' w-full text-slate-100  md:p-10 p-5 pt-10 md:space-y-10 space-y-5  md:pt-20   overflow-hidden'>
       <h1
         className='text-center md:text-3xl text-2xl p-2 font-fraunces text-stone-100 snap-center  '
         data-aos='fade-up'
