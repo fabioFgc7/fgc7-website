@@ -70,7 +70,7 @@ const FormContact = () => {
         }}
         ref={imagenMovil}
         className={`absolute h-40  top-0 left-0 duration-500 ease-in-out   `}
-        src='./assets/space/platillo_volador.jpg '
+        src='/space/platillo_volador.jpg '
         alt='Astronauta'
         data-aos='fade-up-left'
       />
@@ -193,7 +193,6 @@ const FormContact = () => {
                  before:-z-10
                 before:absolute after:box-border before:box-border before:content-[""] before:w-full before:h-full before:-top-full before:left-0  before:bg-gray-900 before:transition-all before:duration-300 before:opacity-50 after:delay-200 hover:text-slate-100 hover:before:top-0 hover:after:top-0'
                 type='submit'
-                // value='Send'
                 data-aos='fade-left'>
                 Send
               </button>

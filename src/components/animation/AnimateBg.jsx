@@ -1,5 +1,4 @@
 import "./animateBg.css";
-import "./alien.css";
 import { Meteorito } from "./Meteorito";
 import { Planets } from "./Planets";
 const AnimateBg = () => {

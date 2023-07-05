@@ -10,7 +10,7 @@ import { Work } from "./components/work/Work";
 import "./index.css";
 function App() {
   return (
-    <main className={`   bg-fixed  `}>
+    <main className={`bg-fixed  `}>
       <AnimateBg />
       <Nav />
       <Home />

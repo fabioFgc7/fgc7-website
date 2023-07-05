@@ -54,7 +54,7 @@ export const Home = () => {
     <>
       <section
         id='home'
-        className='w-full h-screen  flex p-10  justify-around gap-20 items-center md:flex-row flex-col md:rounded-ee-[40%] rounded-none shadow-md shadow-sky-900 overflow-hidden relative'>
+        className='w-full h-screen  flex p-10  md:justify-around gap-20 items-center md:flex-row flex-col md:rounded-ee-[40%] rounded-none shadow-md shadow-sky-900 overflow-hidden relative'>
         <h1
           className='animate-text md:text-5xl text-2xl font-fraunces flex flex-col  text-slate-200 text-center z-10'
           data-aos='fade-down-right'>
@@ -93,7 +93,7 @@ export const Home = () => {
           data-aos='zoom-in-left'>
           <img
             className='imagen md:w-80 md:h-96 w-60 h-72 border-separate border-pink-900 border-l-8 border-2 border-l-[#330367] hover:scale-105 duration-200 drop-shadow-2xl rounded-md border-none select-none z-20 '
-            src='./assets/image/home.jpg'
+            src='/image/home.jpg'
             alt='Img'
           />
         </picture>
