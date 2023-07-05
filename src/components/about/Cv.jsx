@@ -1,5 +1,5 @@
 import { saveAs } from "file-saver";
-import cvFile from "/cv/MyCv.pdf";
+import cvFile from "./cv/MyCv.pdf";
 export const Cv = () => {
   const handleDownload = () => {
     saveAs(cvFile, "Cv");
